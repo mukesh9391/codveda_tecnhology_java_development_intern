@@ -1,0 +1,106 @@
+----- Basic Calculator -----
+Enter first number: 2
+Enter second number: 3
+Choose operation (+, -, *, /):
++
+Result: 5.0
+----- Factorial Calculation using Recursion -----
+Enter a number: 4
+Factorial of 4 = 24
+----- Number Guessing Game -----
+I have picked a number between 1 and 100.
+You have 7 attempts to guess it!
+Enter your guess: 65
+Too high! Try again.
+Enter your guess: 34
+Too low! Try again.
+Enter your guess: 55
+Too high! Try again.
+Enter your guess: 45
+Too high! Try again.
+Enter your guess: 35
+Too low! Try again.
+Enter your guess: 58
+Too high! Try again.
+Enter your guess: 38
+Too low! Try again.
+?? Sorry! You've used all 7 attempts.
+The number was: 40
+
+File Processing Results:
+Total Lines: 1
+Total Words: 1
+
+In-order Traversal:
+20 30 40 50 60 70 80
+Pre-order Traversal:
+50 30 20 40 70 60 80
+Post-order Traversal:
+20 40 30 60 80 70 50
+Level-order Traversal (BFS):
+50 30 70 20 40 60 80
+
+Visual Tree:
+
+          80
+
+     70
+
+          60
+
+50
+
+          40
+
+     30
+
+          20
+
+Deleting 20...
+
+          80
+
+     70
+
+          60
+
+50
+
+          40
+
+     30
+
+Deleting 30...
+
+          80
+
+     70
+
+          60
+
+50
+
+     40
+
+Deleting 50...
+
+          80
+
+     70
+
+60
+
+     40
+
+=== Library Menu ===
+1. Add User
+2. Update User
+3. Delete User
+4. View Users
+5. Add Book
+6. View Books
+7. Borrow Book
+8. Return Book
+9. View Transactions
+10. Exit
+Choose:
